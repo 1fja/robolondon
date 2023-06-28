@@ -14,15 +14,15 @@ client.on('ready', () => {
 
 client.on('message', message => {
 	if(message.body.toLocaleLowerCase() === 'boa noite') {
-		client.sendMessage(message.from, '*Olá 👋 ! Sou o 🤖assistente virtual do Colégio🤖 e Curso LONDON. Caso queira saber sobre algo abaixo, digite os números apresentados:*  1️⃣ - 📚 *MATRÍCULAS* \n \n 2️⃣ - 📑 *INFORMAÇÕES GERAIS* \n \n 0️⃣- 👨‍💻 *ATENDIMENTO* ');
+		client.sendMessage(message.from, '*Olá 👋 ! Sou o 🤖assistente virtual do Colégio🤖 e Curso LONDON. Caso queira saber sobre algo abaixo, digite os números apresentados:* \n \n 1️⃣ - 📚 *MATRÍCULAS* \n \n 2️⃣ - 📑 *INFORMAÇÕES GERAIS* \n \n 0️⃣- 👨‍💻 *ATENDIMENTO* ');
 	}
     
     if(message.body.toLocaleLowerCase() === 'bom dia') {
-		client.sendMessage(message.from, '*Olá 👋 ! Sou o 🤖assistente virtual🤖 do Colégio e Curso LONDON. Caso queira saber sobre algo abaixo, digite os números apresentados:* \n \n  1️⃣ - 📚 *MATRÍCULAS* \n \n  2️⃣ - 📑 *INFORMAÇÕES GERAIS* \n \n 0️⃣- 👨‍💻 *ATENDIMENTO*  ');
+		client.sendMessage(message.from, '*Olá 👋 ! Sou o 🤖assistente virtual🤖 do Colégio e Curso LONDON. Caso queira saber sobre algo abaixo, digite os números apresentados:* \n \n 1️⃣ - 📚 *MATRÍCULAS* \n \n  2️⃣ - 📑 *INFORMAÇÕES GERAIS* \n \n 0️⃣- 👨‍💻 *ATENDIMENTO*  ');
 	}
     
     if(message.body.toLocaleLowerCase() === 'boa tarde') {
-		client.sendMessage(message.from, '*Olá 👋 ! Sou o 🤖assistente virtual🤖 do Colégio e Curso LONDON. Caso queira saber sobre algo abaixo, digite os números apresentados:* \n 1️⃣ - 📚 *MATRÍCULAS* \n \n 2️⃣ - 📑 *INFORMAÇÕES GERAIS* \n \n 0️⃣- 👨‍💻 *ATENDIMENTO* ');
+		client.sendMessage(message.from, '*Olá 👋 ! Sou o 🤖assistente virtual🤖 do Colégio e Curso LONDON. Caso queira saber sobre algo abaixo, digite os números apresentados:* \n \n 1️⃣ - 📚 *MATRÍCULAS* \n \n 2️⃣ - 📑 *INFORMAÇÕES GERAIS* \n \n 0️⃣- 👨‍💻 *ATENDIMENTO* ');
 	}
 
     if(message.body.toLocaleLowerCase() === '1') {
