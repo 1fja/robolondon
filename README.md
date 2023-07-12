@@ -1,3 +1,2 @@
 # robolondon
-Um Chatbot pra minha escola
-só
+Um Chatbot feito para auxiliar na comunicação no Colégio London
